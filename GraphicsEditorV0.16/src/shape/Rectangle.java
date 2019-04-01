@@ -11,4 +11,10 @@ public class Rectangle extends Shape {
 			graphics.drawRect(x1, y1, x2-x1, y2-y1);
 		
 	}
+
+		@Override
+		public void addPoint(int x, int y) {
+			// TODO Auto-generated method stub
+			
+		}
 }

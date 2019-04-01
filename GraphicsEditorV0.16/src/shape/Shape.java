@@ -16,6 +16,23 @@ public abstract class Shape {
 		this.y2 = y;
 		
 	}
+	public Shape clone() {
+		
+		try {
+			return (Shape)this.getClass().newInstance();
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
+		}
+		return null;
+		
+	}
 	abstract public void draw(Graphics graphics);
 	public abstract void addPoint(int x, int y);
+	
 }

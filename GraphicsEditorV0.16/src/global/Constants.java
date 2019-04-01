@@ -1,9 +1,8 @@
 package global;
 
-import shape.Ellipse;
 import shape.Line;
+import shape.Polygon;
 import shape.Rectangle;
-import shape.Select;
 import shape.Shape;
 
 public class Constants {
@@ -50,8 +49,8 @@ public class Constants {
 	public enum EToolbar{
 
 		rectangle("Rectangle", new Rectangle()),
-		rectangle1("Rectangle", new Rectangle()),
-		rectangle2("Rectangle", new Rectangle()),
+		line("Line", new Line()),
+		polygon("Polygon", new Polygon()),
 
 		
 		;

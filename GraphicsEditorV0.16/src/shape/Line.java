@@ -6,9 +6,16 @@ public class Line extends Shape {
 	
 	
 		@Override
-		public void draw(Graphics graphics, int x, int y, int width, int height) {
+		public void draw(Graphics graphics) {
 			
-			graphics.drawLine(x, y, x+width, y+height);
+			graphics.drawLine(x1, y1, x2, y2);
+			
 		
 	}
+
+		@Override
+		public void addPoint(int x, int y) {
+			// TODO Auto-generated method stub
+			
+		}
 }

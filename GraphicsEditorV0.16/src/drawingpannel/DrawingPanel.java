@@ -28,7 +28,7 @@ public class DrawingPanel extends JPanel {
 	private EActionState eActionState;
 
 	private MouseHandler mouseHandler;
-
+	
 	private Shape currentTool;
 	private Shape currentShape;
 	
